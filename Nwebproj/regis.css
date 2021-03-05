@@ -1,0 +1,66 @@
+ input[type=text], input[type=password] {
+  width: 20%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+ 
+}
+div.container
+{
+align: center
+position: relative;
+left: 30px;
+color: black;
+font-family:Verdana
+}
+
+body{
+ color:black;
+ background-blend-mode: lighten;
+ background-opacity:0.5%; 
+
+ }
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+ 
+}
+
+
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+
+.cancelbtn, .signupbtn {
+  float: none;
+  width: 50%;
+}
+
+
+
+
+}
+
+.container input{
+width:100%;
+
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
